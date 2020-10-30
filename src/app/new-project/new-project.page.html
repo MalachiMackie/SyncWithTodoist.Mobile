@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>New Project</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="content">
+  <ion-item>
+    <ion-label position='stacked'>Name</ion-label>
+    <ion-input placeholder='My New Project'></ion-input>
+  </ion-item>
+
+  <div class="submit">
+    <ion-button>Cancel</ion-button>
+    <ion-button (click)='createProject()'>Create</ion-button>
+  </div>
+</ion-content>
