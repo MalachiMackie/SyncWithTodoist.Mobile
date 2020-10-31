@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>New Project</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div id="form">
+    <ion-item>
+      <ion-label position='stacked'>Name</ion-label>
+      <ion-input placeholder='My New Project' [(ngModel)]='projectName'></ion-input>
+    </ion-item>
+  </div>
+
+  <div class="submit">
+    <ion-button (click)='cancel()'>Cancel</ion-button>
+    <ion-button (click)='createProject()'>Create</ion-button>
+  </div>
+</ion-content>

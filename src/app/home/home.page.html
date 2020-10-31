@@ -1,0 +1,18 @@
+<ion-header [translucent]="true">
+	<ion-toolbar>
+		<ion-title> Sync With Todoist </ion-title>
+	</ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+	<ion-header collapse="condense">
+		<ion-toolbar>
+			<ion-title size="large">Sync with Todoist</ion-title>
+		</ion-toolbar>
+	</ion-header>
+
+	<div id="sync-actions">
+		<ion-button (click)="newProject()">Create New Project</ion-button>
+		<ion-button (click)="viewProjects()">View All Projects</ion-button>
+	</div>
+</ion-content>

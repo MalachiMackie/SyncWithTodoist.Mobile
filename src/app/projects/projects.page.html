@@ -1,0 +1,18 @@
+<ion-header>
+	<ion-toolbar>
+		<ion-title>Projects</ion-title>
+	</ion-toolbar>
+</ion-header>
+
+<ion-content>
+	<table>
+		<thread>
+			<th>Name</th>
+		</thread>
+		<tbody>
+			<tr *ngFor="let project of projects">
+				{{project.name}}
+			</tr>
+		</tbody>
+	</table>
+</ion-content>

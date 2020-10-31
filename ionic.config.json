@@ -1,0 +1,7 @@
+{
+  "name": "SyncWithTodoist",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
